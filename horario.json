@@ -1,0 +1,3110 @@
+{
+    "A": {
+        "0945": {
+            "Martes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "10",
+                    "docente": "RODRIGUEZ SEJAS JUAN ANTONIO",
+                    "aula": "693B"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E1",
+                    "docente": "SHITIKOV GAGARINA GALINA",
+                    "aula": "620"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "10",
+                    "docente": "COSTAS JAUREGUI VLADIMIR ABEL",
+                    "aula": "693D"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "10",
+                    "docente": "RODRIGUEZ SEJAS JUAN ANTONIO",
+                    "aula": "692F"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "17",
+                    "docente": "BRAVO FLORES JAIME ANDREE",
+                    "aula": "692H"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E8",
+                    "docente": "VASQUEZ CARRILLO MICHAEL HUASCAR",
+                    "aula": "618"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "F",
+                    "docente": "ORDONEZ SALVATIERRA MIGUEL ANGEL",
+                    "aula": "622"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "F1",
+                    "docente": "TERRAZAS VARGAS JUAN CARLOS",
+                    "aula": "621"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "2",
+                    "docente": "CESPEDES GUIZADA MARIA BENITA",
+                    "aula": "693A"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "10",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "617C"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "5",
+                    "docente": "SANABRIA UGARTE ANAHI",
+                    "aula": "691C"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "17",
+                    "docente": "OMONTE OJALVO JOSE ROBERTO",
+                    "aula": "691C"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E2",
+                    "docente": "DAVALOS BROZOVIC JORGE",
+                    "aula": "620"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "5",
+                    "docente": "MONTANO QUIROGA VICTOR HUGO",
+                    "aula": "690B"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "1",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "691B"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "2",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "617B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "7",
+                    "docente": "RODRIGUEZ SEJAS JUAN ANTONIO",
+                    "aula": "692B"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E5",
+                    "docente": "GUZMAN SAAVEDRA ROCIO",
+                    "aula": "620"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "5",
+                    "docente": "CESPEDES GUIZADA MARIA BENITA",
+                    "aula": "692F"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "10",
+                    "docente": "COSTAS JAUREGUI VLADIMIR ABEL",
+                    "aula": "691A"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "5",
+                    "docente": "MONTANO QUIROGA VICTOR HUGO",
+                    "aula": "623"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "F",
+                    "docente": "ORDONEZ SALVATIERRA MIGUEL ANGEL",
+                    "aula": "691E"
+                }
+            ]
+        },
+        "0815": {
+            "Miércoles": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "10",
+                    "docente": "RODRIGUEZ SEJAS JUAN ANTONIO",
+                    "aula": "692E"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "F2",
+                    "docente": "TERRAZAS VARGAS JUAN CARLOS",
+                    "aula": "621"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "14",
+                    "docente": "LOVERA MAMANI MARIA BETHY",
+                    "aula": "691E"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "6",
+                    "docente": "ANTEZANA SERRANO DILAN ALEJANDRO",
+                    "aula": "617"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "5",
+                    "docente": "TABORGA ACHA FIDEL",
+                    "aula": "617"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C2",
+                    "docente": "TERRAZAS VARGAS JUAN CARLOS",
+                    "aula": "620"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E",
+                    "docente": "MOREIRA CALIZAYA RENE",
+                    "aula": "607"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "1",
+                    "docente": "CESPEDES GUIZADA MARIA BENITA",
+                    "aula": "691D"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "11",
+                    "docente": "ROJAS ZURITA RAMIRO",
+                    "aula": "692B"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D7",
+                    "docente": "SHITIKOV GAGARINA GALINA",
+                    "aula": "620"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "F4",
+                    "docente": "GUZMAN SAAVEDRA ROCIO",
+                    "aula": "684L6"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "1",
+                    "docente": "CESPEDES GUIZADA MARIA BENITA",
+                    "aula": "693B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "11",
+                    "docente": "ROJAS ZURITA RAMIRO",
+                    "aula": "692E"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D6",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "621"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E3",
+                    "docente": "ORDONEZ SALVATIERRA MIGUEL ANGEL",
+                    "aula": "684L6"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "1",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "691C"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "2",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "691D"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "4",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "642"
+                }
+            ]
+        },
+        "1545": {
+            "Martes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "14",
+                    "docente": "LEON ROMERO GUALBERTO",
+                    "aula": "692E"
+                },
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "9",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "624"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D1",
+                    "docente": "UGARTE CEJAS FELIX",
+                    "aula": "620"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E4",
+                    "docente": "VASQUEZ CARRILLO MICHAEL HUASCAR",
+                    "aula": "621"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "4",
+                    "docente": "GRILO SALVATIERRA MARIA ESTELA",
+                    "aula": "692G"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "4",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "623"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D3",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "620"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "624"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D4",
+                    "docente": "FLORES FLORES FREDDY",
+                    "aula": "618"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E6",
+                    "docente": "DAVALOS BROZOVIC JORGE",
+                    "aula": "620"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "4",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "693C"
+                }
+            ]
+        },
+        "1115": {
+            "Jueves": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "14",
+                    "docente": "LEON ROMERO GUALBERTO",
+                    "aula": "692E"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "9",
+                    "docente": "JUCHANI BAZUALDO DEMETRIO",
+                    "aula": "622"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "1",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "691A"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "5",
+                    "docente": "TICLLA MAMANI IVAN",
+                    "aula": "692B"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "8",
+                    "docente": "FRIAS CRUZ ROSALIA",
+                    "aula": "692E"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "8",
+                    "docente": "LEON ROMERO GUALBERTO",
+                    "aula": "692F"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D",
+                    "docente": "FUENTES MIRANDA IVAN",
+                    "aula": "651"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E",
+                    "docente": "MOREIRA CALIZAYA RENE",
+                    "aula": "622"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "17",
+                    "docente": "OMONTE OJALVO JOSE ROBERTO",
+                    "aula": "642"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C1",
+                    "docente": "SHITIKOV GAGARINA GALINA",
+                    "aula": "620"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C3",
+                    "docente": "MOREIRA CALIZAYA RENE",
+                    "aula": "621"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "2",
+                    "docente": "CESPEDES GUIZADA MARIA BENITA",
+                    "aula": "692F"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGLES I",
+                    "grupo": "5",
+                    "docente": "CESPEDES GUIZADA MARIA BENITA",
+                    "aula": "691B"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "1",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "691E"
+                }
+            ]
+        },
+        "1415": {
+            "Miércoles": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "5",
+                    "docente": "TABORGA ACHA FIDEL",
+                    "aula": "617"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "4",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "693C"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "9",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "693A"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C",
+                    "docente": "FLORES FLORES FREDDY",
+                    "aula": "617"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C4",
+                    "docente": "CASTRO LAZARTE CECILIA BEATRIZ",
+                    "aula": "620"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "F3",
+                    "docente": "GUZMAN SAAVEDRA ROCIO",
+                    "aula": "618"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C7",
+                    "docente": "FLORES FLORES FREDDY",
+                    "aula": "620"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D5",
+                    "docente": "GUZMAN SAAVEDRA ROCIO",
+                    "aula": "618"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D2",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "621"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "10",
+                    "docente": "ORTIZ FLORES ANDY DANIEL",
+                    "aula": "691B"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGLES I",
+                    "grupo": "4",
+                    "docente": "GRILO SALVATIERRA MARIA ESTELA",
+                    "aula": "692E"
+                }
+            ]
+        },
+        "2015": {
+            "Lunes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "6",
+                    "docente": "PATINO TITO RONALD EDGAR",
+                    "aula": "607"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "6",
+                    "docente": "PATINO TITO RONALD EDGAR",
+                    "aula": "607"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "6",
+                    "docente": "PATINO TITO RONALD EDGAR",
+                    "aula": "623"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "10",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "693B"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "10",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "623"
+                }
+            ]
+        },
+        "0645": {
+            "Viernes": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "8",
+                    "docente": "LEON ROMERO GUALBERTO",
+                    "aula": "692F"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "8",
+                    "docente": "ARANIBAR ZAMBRANA AMMY SHALEM",
+                    "aula": "625D"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "11",
+                    "docente": "ROJAS ZURITA RAMIRO",
+                    "aula": "622"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "3",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "691B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "8",
+                    "docente": "OMONTE OJALVO JOSE GIL",
+                    "aula": "617C"
+                },
+                {
+                    "materia": "INGLES I",
+                    "grupo": "3",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "692H"
+                }
+            ]
+        },
+        "1245": {
+            "Jueves": [
+                {
+                    "materia": "ALGEBRA I",
+                    "grupo": "9",
+                    "docente": "POR DESIGNAR AUXILIAR",
+                    "aula": "661"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "7",
+                    "docente": "RODRIGUEZ SEJAS JUAN ANTONIO",
+                    "aula": "612"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "9",
+                    "docente": "FRIAS CRUZ ROSALIA",
+                    "aula": "651"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "3",
+                    "docente": "USTARIZ VARGAS HERNAN",
+                    "aula": "607"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "7",
+                    "docente": "RODRIGUEZ SEJAS JUAN ANTONIO",
+                    "aula": "661"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "9",
+                    "docente": "JUCHANI BAZUALDO DEMETRIO",
+                    "aula": "690D"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "3",
+                    "docente": "USTARIZ VARGAS HERNAN",
+                    "aula": "612"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "D",
+                    "docente": "FUENTES MIRANDA IVAN",
+                    "aula": "612"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "3",
+                    "docente": "RAMOS CRESPO MAURICIO",
+                    "aula": "624"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "7",
+                    "docente": "POR DESIGNAR AUXILIAR",
+                    "aula": "690C"
+                }
+            ]
+        },
+        "1845": {
+            "Lunes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "12",
+                    "docente": "DELGADILLO COSSIO DAVID ALFREDO",
+                    "aula": "690B"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "7",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "612"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "12",
+                    "docente": "DELGADILLO COSSIO DAVID ALFREDO",
+                    "aula": "625D"
+                },
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "8",
+                    "docente": "OMONTE OJALVO JOSE GIL",
+                    "aula": "612"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO I",
+                    "grupo": "12",
+                    "docente": "DELGADILLO COSSIO DAVID ALFREDO",
+                    "aula": "691D"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "7",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "691E"
+                },
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "3",
+                    "docente": "LAIME ZAPATA VALENTIN",
+                    "aula": "692H"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "METODOLOGIA INVESTIGACION Y TEC COMUNICACION",
+                    "grupo": "3",
+                    "docente": "LAIME ZAPATA VALENTIN",
+                    "aula": "692G"
+                }
+            ]
+        },
+        "1715": {
+            "Viernes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C",
+                    "docente": "FLORES FLORES FREDDY",
+                    "aula": "693B"
+                },
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "E7",
+                    "docente": "DAVALOS BROZOVIC JORGE",
+                    "aula": "620"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "1",
+                    "docente": "ANTEZANA SERRANO DILAN ALEJANDRO",
+                    "aula": "623"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "4",
+                    "docente": "SALAZAR CHOQUE JORGE",
+                    "aula": "691E"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C5",
+                    "docente": "CASTRO LAZARTE CECILIA BEATRIZ",
+                    "aula": "621"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "617"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "FISICA GENERAL",
+                    "grupo": "C6",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "620"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "2",
+                    "docente": "ZEBALLOS ALDUNATE LEONEL",
+                    "aula": "691B"
+                },
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "6",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "692D"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INTRODUCCION A LA PROGRAMACION",
+                    "grupo": "6",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "691E"
+                }
+            ]
+        }
+    },
+    "B": {
+        "0815": {
+            "Jueves": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "5",
+                    "docente": "TAYLOR TERRAZAS DARLONG HOWARD",
+                    "aula": "622"
+                },
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "6A",
+                    "docente": "BUSTILLOS VARGAS ALEX ISRRAEL",
+                    "aula": "691B"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "5",
+                    "docente": "TAYLOR TERRAZAS DARLONG HOWARD",
+                    "aula": "660"
+                },
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "1",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "690C"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "6",
+                    "docente": "CRUZ ACHAYA MARIA CLAUDIA",
+                    "aula": "692A"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "7",
+                    "docente": "CATARI RIOS RAUL",
+                    "aula": "622"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "1",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "617C"
+                }
+            ]
+        },
+        "0945": {
+            "Viernes": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "5",
+                    "docente": "CLAURE VARGAS ANDRES ALEJANDRO",
+                    "aula": "651"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "6",
+                    "docente": "TERRAZAS LOBO JUAN",
+                    "aula": "691D"
+                },
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "7",
+                    "docente": "CATARI RIOS RAUL",
+                    "aula": "693B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "6A",
+                    "docente": "BUSTILLOS VARGAS ALEX ISRRAEL",
+                    "aula": "692D"
+                },
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "7",
+                    "docente": "CATARI RIOS RAUL",
+                    "aula": "607"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "7A",
+                    "docente": "VALLEJO CAMACHO MARCO ANTONIO",
+                    "aula": "693D"
+                }
+            ]
+        },
+        "1115": {
+            "Jueves": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "6",
+                    "docente": "MEDINA GAMBOA JULIO",
+                    "aula": "691B"
+                },
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "6",
+                    "docente": "TERRAZAS LOBO JUAN",
+                    "aula": "693D"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "8",
+                    "docente": "OMONTE OJALVO JOSE ROBERTO",
+                    "aula": "624"
+                },
+                {
+                    "materia": "ARQUITECTURA DE COMPUTADORAS I",
+                    "grupo": "3",
+                    "docente": "AGREDA CORRALES LUIS ROBERTO",
+                    "aula": "692A"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "7A",
+                    "docente": "VALLEJO CAMACHO MARCO ANTONIO",
+                    "aula": "692C"
+                },
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "1",
+                    "docente": "CUENCA VARGAS FERNANDO",
+                    "aula": "691F"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "7A",
+                    "docente": "MAMANI QUELCA SHIRLEY",
+                    "aula": "692H"
+                }
+            ]
+        },
+        "1245": {
+            "Viernes": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "6",
+                    "docente": "MEDINA GAMBOA JULIO",
+                    "aula": "691A"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "ARQUITECTURA DE COMPUTADORAS I",
+                    "grupo": "3",
+                    "docente": "AGREDA CORRALES LUIS ROBERTO",
+                    "aula": "617"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "6A",
+                    "docente": "BUSTILLOS VARGAS ALEX ISRRAEL",
+                    "aula": "693D"
+                },
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "623"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "624"
+                },
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "3",
+                    "docente": "SANABRIA UGARTE ANAHI",
+                    "aula": "690C"
+                },
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "5",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "693B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "5",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "1415": {
+            "Jueves": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "8",
+                    "docente": "OMONTE OJALVO JOSE ROBERTO",
+                    "aula": "692B"
+                },
+                {
+                    "materia": "ARQUITECTURA DE COMPUTADORAS I",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "624"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ALGEBRA II",
+                    "grupo": "8",
+                    "docente": "CRUZ ACHAYA MARIA CLAUDIA",
+                    "aula": "692D"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ARQUITECTURA DE COMPUTADORAS I",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "691B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO II",
+                    "grupo": "6",
+                    "docente": "SOSA MARZE DAVID SAUL",
+                    "aula": "625C"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "5",
+                    "docente": "ZEBALLOS ALDUNATE LEONEL",
+                    "aula": "617"
+                }
+            ]
+        },
+        "0645": {
+            "Viernes": [
+                {
+                    "materia": "ARQUITECTURA DE COMPUTADORAS I",
+                    "grupo": "1",
+                    "docente": "ACHA PEREZ SAMUEL",
+                    "aula": "691C"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "ARQUITECTURA DE COMPUTADORAS I",
+                    "grupo": "1",
+                    "docente": "ACHA PEREZ SAMUEL",
+                    "aula": "691B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "3",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "691C"
+                }
+            ]
+        },
+        "1545": {
+            "Miércoles": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "2",
+                    "docente": "ORTIZ FLORES ANDY DANIEL",
+                    "aula": "623"
+                }
+            ]
+        },
+        "1845": {
+            "Martes": [
+                {
+                    "materia": "ELEM. DE PROGRAMACION Y ESTRUC. DE DATOS",
+                    "grupo": "3",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "622"
+                }
+            ]
+        },
+        "1715": {
+            "Miércoles": [
+                {
+                    "materia": "MATEMATICA DISCRETA",
+                    "grupo": "1",
+                    "docente": "FERNANDEZ RAMOS DAVID",
+                    "aula": "623"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "MATEMATICA DISCRETA",
+                    "grupo": "1",
+                    "docente": "FERNANDEZ RAMOS DAVID",
+                    "aula": "622"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "MATEMATICA DISCRETA",
+                    "grupo": "1",
+                    "docente": "FERNANDEZ RAMOS DAVID",
+                    "aula": "691A"
+                }
+            ]
+        },
+        "2015": {
+            "Lunes": [
+                {
+                    "materia": "MATEMATICA DISCRETA",
+                    "grupo": "2",
+                    "docente": "DELGADILLO COSSIO DAVID ALFREDO",
+                    "aula": "623"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "MATEMATICA DISCRETA",
+                    "grupo": "2",
+                    "docente": "DELGADILLO COSSIO DAVID ALFREDO",
+                    "aula": "612"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "MATEMATICA DISCRETA",
+                    "grupo": "2",
+                    "docente": "DELGADILLO COSSIO DAVID ALFREDO",
+                    "aula": "624"
+                }
+            ]
+        }
+    },
+    "C": {
+        "1245": {
+            "Martes": [
+                {
+                    "materia": "BASE DE DATOS I",
+                    "grupo": "1",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "691B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "BASE DE DATOS I",
+                    "grupo": "1",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "691B"
+                },
+                {
+                    "materia": "ECUACIONES DIFERENCIALES",
+                    "grupo": "3A",
+                    "docente": "CATARI RIOS RAUL",
+                    "aula": "693C"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "5",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "BASE DE DATOS I",
+                    "grupo": "1",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "693D"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "5",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "0645": {
+            "Lunes": [
+                {
+                    "materia": "BASE DE DATOS I",
+                    "grupo": "2",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "692H"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "2",
+                    "docente": "MANZUR SORIA CARLOS B.",
+                    "aula": "625C"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "3",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "BASE DE DATOS I",
+                    "grupo": "2",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "693B"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "BASE DE DATOS I",
+                    "grupo": "2",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "692D"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "2",
+                    "docente": "MANZUR SORIA CARLOS B.",
+                    "aula": "651"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "3",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "CALCULO NUMERICO",
+                    "grupo": "2",
+                    "docente": "JUCHANI BAZUALDO DEMETRIO",
+                    "aula": "693D"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "3",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "2",
+                    "docente": "MANZUR SORIA CARLOS B.",
+                    "aula": "607"
+                }
+            ]
+        },
+        "1415": {
+            "Lunes": [
+                {
+                    "materia": "CALCULO NUMERICO",
+                    "grupo": "2",
+                    "docente": "JUCHANI BAZUALDO DEMETRIO",
+                    "aula": "622"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "3",
+                    "docente": "REVOLLO TERAN LUZ MAYA",
+                    "aula": "690C"
+                }
+            ]
+        },
+        "1115": {
+            "Martes": [
+                {
+                    "materia": "CALCULO NUMERICO",
+                    "grupo": "2",
+                    "docente": "JUCHANI BAZUALDO DEMETRIO",
+                    "aula": "693A"
+                },
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "3",
+                    "docente": "PACHECO YPURANI CLAUDIA",
+                    "aula": "617B"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "CIRCUITOS ELECTRONICOS",
+                    "grupo": "2",
+                    "docente": "ZAMBRANA BURGOS JHOMIL EFRAIN",
+                    "aula": "692A"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "4",
+                    "docente": "PACHECO YPURANI CLAUDIA",
+                    "aula": "642"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "1",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "652"
+                }
+            ]
+        },
+        "0815": {
+            "Lunes": [
+                {
+                    "materia": "CALCULO NUMERICO",
+                    "grupo": "3",
+                    "docente": "ZABALAGA MONTANO OSCAR A.",
+                    "aula": "617"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ECUACIONES DIFERENCIALES",
+                    "grupo": "4",
+                    "docente": "TAYLOR TERRAZAS DARLONG HOWARD",
+                    "aula": "692C"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "1",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "625D"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "5",
+                    "docente": "OMONTE OJALVO JOSE GIL",
+                    "aula": "690B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "1",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "652"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "6",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "1545": {
+            "Martes": [
+                {
+                    "materia": "CALCULO NUMERICO",
+                    "grupo": "3",
+                    "docente": "ZABALAGA MONTANO OSCAR A.",
+                    "aula": "692H"
+                },
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "4",
+                    "docente": "SORUCO MAITA JOSE ANTONIO",
+                    "aula": "AULVIR"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "CALCULO NUMERICO",
+                    "grupo": "3",
+                    "docente": "ZABALAGA MONTANO OSCAR A.",
+                    "aula": "690D"
+                }
+            ]
+        },
+        "2015": {
+            "Lunes": [
+                {
+                    "materia": "CIRCUITOS ELECTRONICOS",
+                    "grupo": "2",
+                    "docente": "ZAMBRANA BURGOS JHOMIL EFRAIN",
+                    "aula": "691A"
+                },
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "5",
+                    "docente": "OMONTE OJALVO JOSE GIL",
+                    "aula": "624"
+                }
+            ]
+        },
+        "0945": {
+            "Viernes": [
+                {
+                    "materia": "ECUACIONES DIFERENCIALES",
+                    "grupo": "3A",
+                    "docente": "CATARI RIOS RAUL",
+                    "aula": "623"
+                },
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "4",
+                    "docente": "SORUCO MAITA JOSE ANTONIO",
+                    "aula": "AULVIR"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "ECUACIONES DIFERENCIALES",
+                    "grupo": "3A",
+                    "docente": "CATARI RIOS RAUL",
+                    "aula": "617"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ECUACIONES DIFERENCIALES",
+                    "grupo": "4",
+                    "docente": "TAYLOR TERRAZAS DARLONG HOWARD",
+                    "aula": "651"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "6",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "3",
+                    "docente": "REVOLLO TERAN LUZ MAYA",
+                    "aula": "692G"
+                },
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "6",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "1845": {
+            "Viernes": [
+                {
+                    "materia": "ECUACIONES DIFERENCIALES",
+                    "grupo": "4",
+                    "docente": "COLQUE SANGUEZA ARACELI HARUKA",
+                    "aula": "691A"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "METODOS TECNICAS Y TALLER DE PROGRAMACION",
+                    "grupo": "5",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "1715": {
+            "Martes": [
+                {
+                    "materia": "ESTADISTICA I",
+                    "grupo": "5",
+                    "docente": "OMONTE OJALVO JOSE GIL",
+                    "aula": "692C"
+                }
+            ]
+        }
+    },
+    "D": {
+        "0645": {
+            "Lunes": [
+                {
+                    "materia": "BASE DE DATOS II",
+                    "grupo": "1",
+                    "docente": "APARICIO YUJA TATIANA",
+                    "aula": "617B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "BASE DE DATOS II",
+                    "grupo": "1",
+                    "docente": "APARICIO YUJA TATIANA",
+                    "aula": "691F"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "1",
+                    "docente": "PERICON BALDERRAMA ALFREDO",
+                    "aula": "682L8IN"
+                }
+            ]
+        },
+        "0815": {
+            "Miércoles": [
+                {
+                    "materia": "BASE DE DATOS II",
+                    "grupo": "1",
+                    "docente": "APARICIO YUJA TATIANA",
+                    "aula": "617B"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "1",
+                    "docente": "PERICON BALDERRAMA ALFREDO",
+                    "aula": "682L7IN"
+                },
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "BASE DE DATOS II",
+                    "grupo": "2",
+                    "docente": "APARICIO YUJA TATIANA",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ESTADISTICA II",
+                    "grupo": "3",
+                    "docente": "OMONTE OJALVO JOSE ROBERTO",
+                    "aula": "692B"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "4",
+                    "docente": "REVOLLO TERAN LUZ MAYA",
+                    "aula": "682L8IN"
+                },
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "2",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "623"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "691F"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "2",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "624"
+                }
+            ]
+        },
+        "1245": {
+            "Lunes": [
+                {
+                    "materia": "BASE DE DATOS II",
+                    "grupo": "2",
+                    "docente": "APARICIO YUJA TATIANA",
+                    "aula": "692B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "3",
+                    "docente": "QUIROZ CHAVEZ ABDON",
+                    "aula": "AULVIR"
+                }
+            ]
+        },
+        "0945": {
+            "Miércoles": [
+                {
+                    "materia": "BASE DE DATOS II",
+                    "grupo": "2",
+                    "docente": "APARICIO YUJA TATIANA",
+                    "aula": "612"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "3",
+                    "docente": "QUIROZ CHAVEZ ABDON",
+                    "aula": "AULVIR"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "4",
+                    "docente": "REVOLLO TERAN LUZ MAYA",
+                    "aula": "617C"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "CONTABILIDAD BASICA",
+                    "grupo": "2",
+                    "docente": "MEJIA URQUIETA VICTOR RAMIRO",
+                    "aula": "625C"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "4",
+                    "docente": "REVOLLO TERAN LUZ MAYA",
+                    "aula": "625D"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION I",
+                    "grupo": "1",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "607"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "CONTABILIDAD BASICA",
+                    "grupo": "2",
+                    "docente": "MEJIA URQUIETA VICTOR RAMIRO",
+                    "aula": "693D"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION I",
+                    "grupo": "1",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "691E"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "ESTADISTICA II",
+                    "grupo": "2",
+                    "docente": "SORUCO MAITA JOSE ANTONIO",
+                    "aula": "AULVIR"
+                }
+            ]
+        },
+        "1115": {
+            "Martes": [
+                {
+                    "materia": "CONTABILIDAD BASICA",
+                    "grupo": "3",
+                    "docente": "ARANIBAR LA FUENTE LIGIA JACQUELINE",
+                    "aula": "692H"
+                },
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "3",
+                    "docente": "QUIROZ CHAVEZ ABDON",
+                    "aula": "AULVIR"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "CONTABILIDAD BASICA",
+                    "grupo": "3",
+                    "docente": "ARANIBAR LA FUENTE LIGIA JACQUELINE",
+                    "aula": "692C"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "ESTADISTICA II",
+                    "grupo": "2",
+                    "docente": "VELEZ BILBAO DAVID ENRIQUE",
+                    "aula": "692A"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "INVESTIGACION OPERATIVA I",
+                    "grupo": "1",
+                    "docente": "PERICON BALDERRAMA ALFREDO",
+                    "aula": "682L8IN"
+                }
+            ]
+        },
+        "1845": {
+            "Miércoles": [
+                {
+                    "materia": "CONTABILIDAD BASICA",
+                    "grupo": "3",
+                    "docente": "ARANIBAR LA FUENTE LIGIA JACQUELINE",
+                    "aula": "692A"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION I",
+                    "grupo": "2",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "617"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "ESTADISTICA II",
+                    "grupo": "3",
+                    "docente": "MAMANI QUELCA SHIRLEY",
+                    "aula": "660"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "3",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "3",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "691E"
+                }
+            ]
+        },
+        "1545": {
+            "Jueves": [
+                {
+                    "materia": "ESTADISTICA II",
+                    "grupo": "2",
+                    "docente": "SORUCO MAITA JOSE ANTONIO",
+                    "aula": "AULVIR"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION I",
+                    "grupo": "1",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "692B"
+                }
+            ]
+        },
+        "1415": {
+            "Viernes": [
+                {
+                    "materia": "ESTADISTICA II",
+                    "grupo": "3",
+                    "docente": "OMONTE OJALVO JOSE ROBERTO",
+                    "aula": "691E"
+                },
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "691C"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "2",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "691A"
+                }
+            ]
+        },
+        "1715": {
+            "Lunes": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION I",
+                    "grupo": "2",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "691B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION I",
+                    "grupo": "2",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "693D"
+                }
+            ]
+        },
+        "2015": {
+            "Jueves": [
+                {
+                    "materia": "TALLER DE SISTEMAS OPERATIVOS",
+                    "grupo": "3",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "691A"
+                }
+            ]
+        }
+    },
+    "E": {
+        "2015": {
+            "Lunes": [
+                {
+                    "materia": "APLICACION DE SISTEMAS OPERATIVOS",
+                    "grupo": "1",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "691E"
+                }
+            ]
+        },
+        "1845": {
+            "Viernes": [
+                {
+                    "materia": "APLICACION DE SISTEMAS OPERATIVOS",
+                    "grupo": "1",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "693D"
+                },
+                {
+                    "materia": "SISTEMAS I",
+                    "grupo": "2",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "692C"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "APLICACION DE SISTEMAS OPERATIVOS",
+                    "grupo": "2",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "690B"
+                },
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "2",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "693B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "MERCADOTECNIA",
+                    "grupo": "3",
+                    "docente": "SARMIENTO FRANCO ARIEL ANTONIO",
+                    "aula": "623"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "MERCADOTECNIA",
+                    "grupo": "3",
+                    "docente": "SARMIENTO FRANCO ARIEL ANTONIO",
+                    "aula": "690D"
+                },
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "2",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "692C"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "SISTEMAS I",
+                    "grupo": "2",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "693A"
+                }
+            ]
+        },
+        "1245": {
+            "Lunes": [
+                {
+                    "materia": "APLICACION DE SISTEMAS OPERATIVOS",
+                    "grupo": "2",
+                    "docente": "CUSSI NICOLAS GROVER HUMBERTO",
+                    "aula": "693B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "4",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "4",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "0945": {
+            "Lunes": [
+                {
+                    "materia": "APLICACION DE SISTEMAS OPERATIVOS",
+                    "grupo": "3",
+                    "docente": "AYOROA CARDOZO JOSE RICHARD",
+                    "aula": "693A"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "APLICACION DE SISTEMAS OPERATIVOS",
+                    "grupo": "3",
+                    "docente": "AYOROA CARDOZO JOSE RICHARD",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "INGLES II",
+                    "grupo": "1",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "691B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INGLES II",
+                    "grupo": "2",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "691B"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "2",
+                    "docente": "JALDIN ROSALES K. ROLANDO",
+                    "aula": "690E"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGLES II",
+                    "grupo": "2",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "691C"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "2",
+                    "docente": "JALDIN ROSALES K. ROLANDO",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "0645": {
+            "Jueves": [
+                {
+                    "materia": "INGLES II",
+                    "grupo": "1",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "661"
+                },
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "3",
+                    "docente": "FLORES SOLIZ JUAN MARCELO",
+                    "aula": "690B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "INGLES II",
+                    "grupo": "3",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "692G"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "1",
+                    "docente": "FLORES SOLIZ JUAN MARCELO",
+                    "aula": "690E"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGLES II",
+                    "grupo": "3",
+                    "docente": "PEETERS ILONAA MAGDA LENA",
+                    "aula": "692H"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "1",
+                    "docente": "FLORES SOLIZ JUAN MARCELO",
+                    "aula": "AUDMEMI"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "1",
+                    "docente": "FLORES SOLIZ JUAN MARCELO",
+                    "aula": "690D"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "3",
+                    "docente": "FLORES SOLIZ JUAN MARCELO",
+                    "aula": "690B"
+                }
+            ]
+        },
+        "1715": {
+            "Miércoles": [
+                {
+                    "materia": "INVESTIGACION OPERATIVA II",
+                    "grupo": "2",
+                    "docente": "MANCHEGO CASTELLON ROBERTO JUAN",
+                    "aula": "692C"
+                },
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "1",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "690D"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INVESTIGACION OPERATIVA II",
+                    "grupo": "2",
+                    "docente": "MANCHEGO CASTELLON ROBERTO JUAN",
+                    "aula": "607"
+                },
+                {
+                    "materia": "TALLER DE BASE DE DATOS",
+                    "grupo": "1",
+                    "docente": "CALANCHA NAVIA BORIS",
+                    "aula": "693C"
+                }
+            ]
+        },
+        "0815": {
+            "Sábado": [
+                {
+                    "materia": "INVESTIGACION OPERATIVA II",
+                    "grupo": "2",
+                    "docente": "MANCHEGO CASTELLON ROBERTO JUAN",
+                    "aula": "623"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "2",
+                    "docente": "JALDIN ROSALES K. ROLANDO",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "1545": {
+            "Lunes": [
+                {
+                    "materia": "MERCADOTECNIA",
+                    "grupo": "2",
+                    "docente": "GUTIERREZ ANDRADE OSVALDO WALTER",
+                    "aula": "661"
+                },
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "1A",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "693A"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "MERCADOTECNIA",
+                    "grupo": "2",
+                    "docente": "GUTIERREZ ANDRADE OSVALDO WALTER",
+                    "aula": "693D"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "1A",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "692D"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "SISTEMAS DE INFORMACION II",
+                    "grupo": "1A",
+                    "docente": "SALAZAR SERRUDO CARLA",
+                    "aula": "692F"
+                }
+            ]
+        }
+    },
+    "F": {
+        "0645": {
+            "Martes": [
+                {
+                    "materia": "INGENIERIA DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "CAMACHO DEL CASTILLO INDIRA",
+                    "aula": "651"
+                },
+                {
+                    "materia": "SIMULACION DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "617C"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "INGENIERIA DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "CAMACHO DEL CASTILLO INDIRA",
+                    "aula": "652"
+                },
+                {
+                    "materia": "SIMULACION DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "690E"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INGENIERIA DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "CAMACHO DEL CASTILLO INDIRA",
+                    "aula": "692D"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "SIMULACION DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "625D"
+                }
+            ]
+        },
+        "1115": {
+            "Martes": [
+                {
+                    "materia": "INGENIERIA DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "690B"
+                },
+                {
+                    "materia": "INTELIGENCIA ARTIFICIAL",
+                    "grupo": "1",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "692D"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INTELIGENCIA ARTIFICIAL",
+                    "grupo": "1",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "692D"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "SISTEMAS II",
+                    "grupo": "2",
+                    "docente": "GARCIA MOLINA JUAN RUBEN",
+                    "aula": "693A"
+                }
+            ]
+        },
+        "0945": {
+            "Miércoles": [
+                {
+                    "materia": "INGENIERIA DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "INFLAB"
+                },
+                {
+                    "materia": "INTELIGENCIA ARTIFICIAL",
+                    "grupo": "1",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "692A"
+                },
+                {
+                    "materia": "REDES DE COMPUTADORAS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "693A"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGENIERIA DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "691D"
+                },
+                {
+                    "materia": "REDES DE COMPUTADORAS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "692C"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "REDES DE COMPUTADORAS",
+                    "grupo": "2",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "691B"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "REDES DE COMPUTADORAS",
+                    "grupo": "2",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "693A"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "REDES DE COMPUTADORAS",
+                    "grupo": "2",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "691C"
+                }
+            ]
+        },
+        "1245": {
+            "Lunes": [
+                {
+                    "materia": "INTELIGENCIA ARTIFICIAL",
+                    "grupo": "2",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "691C"
+                },
+                {
+                    "materia": "SISTEMAS ECONOMICOS",
+                    "grupo": "2",
+                    "docente": "VARGAS PEREDO EMIR FELIX",
+                    "aula": "625D"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "INTELIGENCIA ARTIFICIAL",
+                    "grupo": "2",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "690B"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "INTELIGENCIA ARTIFICIAL",
+                    "grupo": "2",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "692C"
+                }
+            ]
+        },
+        "1415": {
+            "Lunes": [
+                {
+                    "materia": "REDES DE COMPUTADORAS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "692B"
+                },
+                {
+                    "materia": "SIMULACION DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "692G"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "SISTEMAS ECONOMICOS",
+                    "grupo": "2",
+                    "docente": "VARGAS PEREDO EMIR FELIX",
+                    "aula": "660"
+                }
+            ]
+        },
+        "1715": {
+            "Jueves": [
+                {
+                    "materia": "SISTEMAS II",
+                    "grupo": "2",
+                    "docente": "GARCIA MOLINA JUAN RUBEN",
+                    "aula": "691F"
+                }
+            ]
+        },
+        "2015": {
+            "Lunes": [
+                {
+                    "materia": "TELEFONIA IP",
+                    "grupo": "1",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "692C"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "TELEFONIA IP",
+                    "grupo": "1",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "INFLAB"
+                }
+            ]
+        }
+    },
+    "G": {
+        "1415": {
+            "Martes": [
+                {
+                    "materia": "DINAMICA DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "690C"
+                },
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "4",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "690E"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "DINAMICA DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ORELLANA ARAOZ JORGE WALTER",
+                    "aula": "690E"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "4",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "0645": {
+            "Lunes": [
+                {
+                    "materia": "ELECTROTECNIA INDUSTRIAL",
+                    "grupo": "5",
+                    "docente": "ACHA PEREZ SAMUEL",
+                    "aula": "692E"
+                },
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "3",
+                    "docente": "ESCALERA FERNANDEZ DAVID",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "ELECTROTECNIA INDUSTRIAL",
+                    "grupo": "5",
+                    "docente": "ACHA PEREZ SAMUEL",
+                    "aula": "682L3"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "ELECTROTECNIA INDUSTRIAL",
+                    "grupo": "5",
+                    "docente": "ACHA PEREZ SAMUEL",
+                    "aula": "693B"
+                },
+                {
+                    "materia": "PLANIFICACION Y EVALUACION DE PROYECTOS",
+                    "grupo": "2",
+                    "docente": "VARGAS ANTEZANA ADEMAR MARCELO",
+                    "aula": "692C"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "ELECTROTECNIA INDUSTRIAL",
+                    "grupo": "5",
+                    "docente": "ACHA PEREZ SAMUEL",
+                    "aula": "660"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "3",
+                    "docente": "ESCALERA FERNANDEZ DAVID",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "0945": {
+            "Martes": [
+                {
+                    "materia": "GESTION DE CALIDAD DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "690D"
+                },
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "690E"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "PLANIFICACION Y EVALUACION DE PROYECTOS",
+                    "grupo": "2",
+                    "docente": "VARGAS ANTEZANA ADEMAR MARCELO",
+                    "aula": "690B"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "FLORES VILLARROEL CORINA",
+                    "aula": "690D"
+                }
+            ]
+        },
+        "0815": {
+            "Jueves": [
+                {
+                    "materia": "GESTION DE CALIDAD DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "TORRICO BASCOPE ROSEMARY",
+                    "aula": "691C"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "651"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "TALLER DE INGENIERIA DE SOFTWARE",
+                    "grupo": "2",
+                    "docente": "BLANCO COCA LETICIA",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "1715": {
+            "Martes": [
+                {
+                    "materia": "PLANIFICACION Y EVALUACION DE PROYECTOS",
+                    "grupo": "2",
+                    "docente": "VARGAS ANTEZANA ADEMAR MARCELO",
+                    "aula": "660"
+                }
+            ]
+        },
+        "1245": {
+            "Martes": [
+                {
+                    "materia": "REDES AVANZADAS DE COMPUTADORAS",
+                    "grupo": "2",
+                    "docente": "MONTECINOS CHOQUE MARCO ANTONIO",
+                    "aula": "607"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "REDES AVANZADAS DE COMPUTADORAS",
+                    "grupo": "2",
+                    "docente": "MONTECINOS CHOQUE MARCO ANTONIO",
+                    "aula": "692A"
+                }
+            ]
+        }
+    },
+    "H": {
+        "1115": {
+            "Martes": [
+                {
+                    "materia": "EVALUACION Y AUDITORIA DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "691F"
+                },
+                {
+                    "materia": "SEGURIDAD DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ANTEZANA CAMACHO MARCELO",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "SEGURIDAD DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ANTEZANA CAMACHO MARCELO",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "0815": {
+            "Miércoles": [
+                {
+                    "materia": "EVALUACION Y AUDITORIA DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "690B"
+                },
+                {
+                    "materia": "GESTION ESTRATEGICA DE EMPRESAS",
+                    "grupo": "2",
+                    "docente": "GUZMAN ORELLANA GONZALO ENRIQUE ANTONIO",
+                    "aula": "682L6IN"
+                },
+                {
+                    "materia": "TALLER DE SIMULACION DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "AYOROA CARDOZO JOSE RICHARD",
+                    "aula": "625D"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "EVALUACION Y AUDITORIA DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "690C"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "EVALUACION Y AUDITORIA DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "691D"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "3",
+                    "docente": "JALDIN ROSALES K. ROLANDO",
+                    "aula": "690E"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "SISTEMAS COLABORATIVOS",
+                    "grupo": "1",
+                    "docente": "ANTEZANA CAMACHO MARCELO",
+                    "aula": "INFLAB"
+                },
+                {
+                    "materia": "TALLER DE SIMULACION DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "AYOROA CARDOZO JOSE RICHARD",
+                    "aula": "661"
+                }
+            ]
+        },
+        "1545": {
+            "Lunes": [
+                {
+                    "materia": "EVALUACION Y AUDITORIA DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "692F"
+                },
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "5",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "625C"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGLES III",
+                    "grupo": "1",
+                    "docente": "GRILO SALVATIERRA MARIA ESTELA",
+                    "aula": "693B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "3",
+                    "docente": "JALDIN ROSALES K. ROLANDO",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "0945": {
+            "Miércoles": [
+                {
+                    "materia": "EVALUACION Y AUDITORIA DE SISTEMAS",
+                    "grupo": "2",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "661"
+                },
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "3",
+                    "docente": "JALDIN ROSALES K. ROLANDO",
+                    "aula": "690E"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "SISTEMAS COLABORATIVOS",
+                    "grupo": "1",
+                    "docente": "ANTEZANA CAMACHO MARCELO",
+                    "aula": "INFLAB"
+                }
+            ]
+        },
+        "0645": {
+            "Martes": [
+                {
+                    "materia": "GESTION ESTRATEGICA DE EMPRESAS",
+                    "grupo": "2",
+                    "docente": "GUZMAN ORELLANA GONZALO ENRIQUE ANTONIO",
+                    "aula": "682L6IN"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "4",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "690C"
+                }
+            ]
+        },
+        "1415": {
+            "Martes": [
+                {
+                    "materia": "INGLES III",
+                    "grupo": "1",
+                    "docente": "GRILO SALVATIERRA MARIA ESTELA",
+                    "aula": "693A"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "TALLER DE SIMULACION DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "2015": {
+            "Lunes": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "4",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "692D"
+                }
+            ]
+        },
+        "1845": {
+            "Martes": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "4",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "642"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "TALLER DE SIMULACION DE SISTEMAS",
+                    "grupo": "1",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "1715": {
+            "Martes": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "5",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "625C"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "METODOL. Y PLANIF. DE PROYECTO DE GRADO",
+                    "grupo": "5",
+                    "docente": "VILLARROEL TAPIA HENRY FRANK",
+                    "aula": "690B"
+                }
+            ]
+        }
+    },
+    "I": {
+        "0645": {
+            "Miércoles": [
+                {
+                    "materia": "BUSINESS INTELLIGENCE Y BIG DATA",
+                    "grupo": "1",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "BUSINESS INTELLIGENCE Y BIG DATA",
+                    "grupo": "1",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "691F"
+                },
+                {
+                    "materia": "INGENIERIA DE METODOS Y REINGENIERIA",
+                    "grupo": "2",
+                    "docente": "COSIO PAPADOPOLIS CARLOS JAVIER ALFREDO",
+                    "aula": "692A"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "INGENIERIA DE METODOS Y REINGENIERIA",
+                    "grupo": "2",
+                    "docente": "COSIO PAPADOPOLIS CARLOS JAVIER ALFREDO",
+                    "aula": "691B"
+                }
+            ]
+        },
+        "1845": {
+            "Lunes": [
+                {
+                    "materia": "COSTOS INDUSTRIALES",
+                    "grupo": "2",
+                    "docente": "LIMA VACAFLOR TITO ANIBAL",
+                    "aula": "617"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "COSTOS INDUSTRIALES",
+                    "grupo": "3",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "682L0IN"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "PLANIF. Y CONTROL DE LA PRODUCCION II",
+                    "grupo": "3",
+                    "docente": "CHOQUE FLORES ALEX D'ANCHGELO",
+                    "aula": "690B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "PLANIF. Y CONTROL DE LA PRODUCCION II",
+                    "grupo": "3",
+                    "docente": "CHOQUE FLORES ALEX D'ANCHGELO",
+                    "aula": "625D"
+                }
+            ]
+        },
+        "2015": {
+            "Miércoles": [
+                {
+                    "materia": "COSTOS INDUSTRIALES",
+                    "grupo": "2",
+                    "docente": "LIMA VACAFLOR TITO ANIBAL",
+                    "aula": "612"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "COSTOS INDUSTRIALES",
+                    "grupo": "3",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "692E"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "PROGRAMACION MOVIL",
+                    "grupo": "1",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "691C"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "PROGRAMACION MOVIL",
+                    "grupo": "1",
+                    "docente": "FIORILO LOZADA AMERICO",
+                    "aula": "691E"
+                }
+            ]
+        },
+        "1115": {
+            "Sábado": [
+                {
+                    "materia": "COSTOS INDUSTRIALES",
+                    "grupo": "2",
+                    "docente": "LIMA VACAFLOR TITO ANIBAL",
+                    "aula": "617"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "PLANIF. Y CONTROL DE LA PRODUCCION I",
+                    "grupo": "3",
+                    "docente": "QUIROZ CHAVEZ ABDON",
+                    "aula": "AULVIR"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "2",
+                    "docente": "MONTANO QUIROGA VICTOR HUGO",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "WEB SEMANTICAS",
+                    "grupo": "1",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "691C"
+                }
+            ]
+        },
+        "0815": {
+            "Miércoles": [
+                {
+                    "materia": "INGENIERIA DE METODOS Y REINGENIERIA",
+                    "grupo": "2",
+                    "docente": "COSIO PAPADOPOLIS CARLOS JAVIER ALFREDO",
+                    "aula": "691C"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "INGENIERIA DE METODOS Y REINGENIERIA",
+                    "grupo": "2",
+                    "docente": "POR DESIGNAR AUXILIAR",
+                    "aula": "617C"
+                },
+                {
+                    "materia": "INGENIERIA ECONOMICA",
+                    "grupo": "2",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "652"
+                },
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "2",
+                    "docente": "MONTANO QUIROGA VICTOR HUGO",
+                    "aula": "INFDEP"
+                },
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "3",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "690E"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "INGENIERIA ECONOMICA",
+                    "grupo": "2",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "682L8IN"
+                },
+                {
+                    "materia": "PLANIF. Y CONTROL DE LA PRODUCCION I",
+                    "grupo": "3",
+                    "docente": "QUIROZ CHAVEZ ABDON",
+                    "aula": "AULVIR"
+                },
+                {
+                    "materia": "PRACTICA EMPRESARIAL",
+                    "grupo": "2",
+                    "docente": "ANTEZANA CAMACHO MARCELO",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGENIERIA ECONOMICA",
+                    "grupo": "2",
+                    "docente": "POR DESGINAR DOCENTE",
+                    "aula": "692B"
+                }
+            ]
+        },
+        "0945": {
+            "Martes": [
+                {
+                    "materia": "INGENIERIA ECONOMICA",
+                    "grupo": "3",
+                    "docente": "ARANIBAR LA FUENTE LIGIA JACQUELINE",
+                    "aula": "652"
+                },
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "4",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "625C"
+                },
+                {
+                    "materia": "ROBOTICA",
+                    "grupo": "1",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "692F"
+                }
+            ],
+            "Viernes": [
+                {
+                    "materia": "INGENIERIA ECONOMICA",
+                    "grupo": "3",
+                    "docente": "ARANIBAR LA FUENTE LIGIA JACQUELINE",
+                    "aula": "690B"
+                }
+            ],
+            "Jueves": [
+                {
+                    "materia": "PLANIF. Y CONTROL DE LA PRODUCCION I",
+                    "grupo": "3",
+                    "docente": "QUIROZ CHAVEZ ABDON",
+                    "aula": "AULVIR"
+                },
+                {
+                    "materia": "ROBOTICA",
+                    "grupo": "1",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "692G"
+                }
+            ],
+            "Sábado": [
+                {
+                    "materia": "PLANIF. Y CONTROL DE LA PRODUCCION II",
+                    "grupo": "3",
+                    "docente": "CHOQUE FLORES ALEX D'ANCHGELO",
+                    "aula": "691F"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "PRACTICA EMPRESARIAL",
+                    "grupo": "2",
+                    "docente": "ANTEZANA CAMACHO MARCELO",
+                    "aula": "690E"
+                }
+            ]
+        },
+        "1715": {
+            "Miércoles": [
+                {
+                    "materia": "INGENIERIA ECONOMICA",
+                    "grupo": "3",
+                    "docente": "ARANIBAR LA FUENTE LIGIA JACQUELINE",
+                    "aula": "693B"
+                }
+            ]
+        },
+        "1245": {
+            "Miércoles": [
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "3",
+                    "docente": "GARCIA PEREZ CARMEN ROSA",
+                    "aula": "690E"
+                }
+            ],
+            "Lunes": [
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "4",
+                    "docente": "ROMERO RODRIGUEZ PATRICIA",
+                    "aula": "692G"
+                }
+            ]
+        },
+        "1415": {
+            "Lunes": [
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "5",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "INFDEP"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "PROYECTO FINAL",
+                    "grupo": "5",
+                    "docente": "VILLARROEL NOVILLO JIMMY",
+                    "aula": "INFDEP"
+                },
+                {
+                    "materia": "GENERACION DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "COSTAS JAUREGUI VLADIMIR ABEL",
+                    "aula": "607"
+                }
+            ],
+            "Miércoles": [
+                {
+                    "materia": "WEB SEMANTICAS",
+                    "grupo": "1",
+                    "docente": "RODRIGUEZ BILBAO ERIKA PATRICIA",
+                    "aula": "681B"
+                }
+            ]
+        }
+    },
+    "J": {
+        "0945": {
+            "Miércoles": [
+                {
+                    "materia": "GENERACION DE SOFTWARE",
+                    "grupo": "1",
+                    "docente": "COSTAS JAUREGUI VLADIMIR ABEL",
+                    "aula": "692C"
+                }
+            ]
+        },
+        "1845": {
+            "Lunes": [
+                {
+                    "materia": "TECNICAS DE RUTEO AVANZADA",
+                    "grupo": "1",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "INFLAB"
+                }
+            ],
+            "Martes": [
+                {
+                    "materia": "TECNICAS DE RUTEO AVANZADA",
+                    "grupo": "1",
+                    "docente": "MONTOYA BURGOS YONY RICHARD",
+                    "aula": "INFLAB"
+                }
+            ]
+        }
+    }
+}

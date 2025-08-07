@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario UMSS - Licenciatura en Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="loguito.jpg" alt="Logo UMSS" class="logo">
+        <div class="header-content">
+            <h1>LICENCIATURA EN SISTEMAS (NUEVO)</h1>
+            <div class="header-controls">
+                <select id="nivel-select">
+                    <option value="A">Nivel A</option>
+                    <option value="B">Nivel B</option>
+                    <option value="C">Nivel C</option>
+                    <option value="D">Nivel D</option>
+                    <option value="E">Nivel E</option>
+                    <option value="F">Nivel F</option>
+                    <option value="G">Nivel G</option>
+                    <option value="H">Nivel H</option>
+                    <option value="I">Nivel I</option>
+                    <option value="J">Nivel J</option>
+                </select>
+                <select id="materia-select">
+                    <option value="">Seleccione una materia</option>
+                </select>
+                <select id="grupo-select">
+                    <option value="">Seleccione un grupo</option>
+                </select>
+                <button id="btn-agregar">Agregar al horario</button>
+                <button id="btn-limpiar">Limpiar horario</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="schedule-container">
+        <table id="horario-table">
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                </tr>
+            </thead>
+            <tbody id="horario-body">
+                <!-- Los datos del horario se cargarán aquí -->
+            </tbody>
+        </table>
+    </div>
+
+    <div class="leyenda-colores">
+        <h3>Leyenda de colores:</h3>
+        <div id="color-leyenda"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
