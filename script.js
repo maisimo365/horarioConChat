@@ -23,8 +23,18 @@ const btnLimpiar = document.getElementById('btn-limpiar');
 const btnGuardar = document.getElementById('btn-guardar');
 const colorLeyenda = document.getElementById('color-leyenda');
 
+// Solución GitHub Pages: Verificar si estamos en producción
+const esProduccion = window.location.host.includes('github.io');
+
 // Cargar datos del localStorage al iniciar
 function cargarDesdeLocalStorage() {
+    if (esProduccion) {
+        // Limpiar cache en producción
+        localStorage.removeItem('horarioSeleccionado');
+        localStorage.removeItem('materiasAgregadas');
+        return;
+    }
+
     const horarioGuardado = localStorage.getItem('horarioSeleccionado');
     const materiasGuardadas = localStorage.getItem('materiasAgregadas');
     
@@ -40,8 +50,10 @@ function cargarDesdeLocalStorage() {
 
 // Guardar datos en localStorage
 function guardarEnLocalStorage() {
-    localStorage.setItem('horarioSeleccionado', JSON.stringify(horarioSeleccionado));
-    localStorage.setItem('materiasAgregadas', JSON.stringify(materiasAgregadas));
+    if (!esProduccion) {
+        localStorage.setItem('horarioSeleccionado', JSON.stringify(horarioSeleccionado));
+        localStorage.setItem('materiasAgregadas', JSON.stringify(materiasAgregadas));
+    }
 }
 
 // Mostrar notificación
@@ -50,7 +62,6 @@ function mostrarNotificacion(mensaje, tipo = 'info') {
     notificacion.textContent = mensaje;
     notificacion.className = 'notificacion mostrar';
     
-    // Establecer color según el tipo
     if (tipo === 'error') {
         notificacion.style.backgroundColor = '#f44336';
     } else if (tipo === 'success') {
@@ -74,13 +85,21 @@ async function cargarDatos() {
         actualizarSelectores();
         cargarDesdeLocalStorage();
         generarHorario();
+        
+        // Solución GitHub Pages: Forzar recarga de datos
+        if (esProduccion) {
+            setTimeout(() => {
+                generarHorario();
+                actualizarListaMaterias();
+            }, 500);
+        }
     } catch (error) {
         console.error("Error:", error);
         horarioBody.innerHTML = `
             <tr>
                 <td colspan="7" class="error">
                     Error al cargar el horario: ${error.message}<br>
-                    Verifica que el archivo \"horario.json\" exista.
+                    Verifica que el archivo "horario.json" exista.
                 </td>
             </tr>
         `;
@@ -408,14 +427,13 @@ function guardarHorario() {
         return;
     }
 
-    // Obtener la fecha actual para el nombre del archivo
-    const ahora = new Date();
-    const nombreArchivo = `Horario_LSistemas_${ahora.getFullYear()}${(ahora.getMonth()+1).toString().padStart(2, '0')}${ahora.getDate().toString().padStart(2, '0')}_${ahora.getHours()}${ahora.getMinutes()}`;
+    // Verificar que html2canvas esté cargado
+    if (typeof html2canvas !== 'function') {
+        mostrarNotificacion('Error: La función de guardado no está disponible', 'error');
+        return;
+    }
 
-    // Selecciona el contenedor del horario para la imagen
     const elementoParaImagen = document.getElementById('horario-para-imagen');
-    
-    // Muestra un mensaje de carga
     const loading = document.createElement('div');
     loading.textContent = 'Generando imagen...';
     loading.style.position = 'fixed';
@@ -429,20 +447,16 @@ function guardarHorario() {
     loading.style.zIndex = '1000';
     document.body.appendChild(loading);
     
-    // Usa html2canvas para crear la imagen
     html2canvas(elementoParaImagen, {
-        scale: 2, // Mejor calidad
+        scale: 2,
         logging: false,
         useCORS: true,
         allowTaint: true,
         backgroundColor: '#ffffff'
     }).then(canvas => {
-        // Elimina el mensaje de carga
         document.body.removeChild(loading);
-        
-        // Crea un enlace para descargar la imagen
         const link = document.createElement('a');
-        link.download = `${nombreArchivo}.png`;
+        link.download = `Horario_UMSS_${new Date().toISOString().slice(0,10)}.png`;
         link.href = canvas.toDataURL('image/png');
         link.click();
         mostrarNotificacion('Horario guardado como imagen', 'success');
@@ -452,6 +466,7 @@ function guardarHorario() {
         mostrarNotificacion('Error al generar la imagen', 'error');
     });
 }
+
 // Event listeners
 document.addEventListener('DOMContentLoaded', cargarDatos);
 nivelSelect.addEventListener('change', actualizarSelectores);
@@ -459,3 +474,11 @@ materiaSelect.addEventListener('change', actualizarGrupos);
 btnAgregar.addEventListener('click', agregarClase);
 btnLimpiar.addEventListener('click', limpiarHorario);
 btnGuardar.addEventListener('click', guardarHorario);
+
+// Solución GitHub Pages: Forzar recarga después de 1 segundo
+if (esProduccion) {
+    setTimeout(() => {
+        generarHorario();
+        actualizarListaMaterias();
+    }, 1000);
+}
