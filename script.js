@@ -184,11 +184,14 @@ function actualizarGrupos() {
     }
 }
 
+// Reemplaza la función generarHorario() con esta versión mejorada
 function generarHorario() {
     horarioBody.innerHTML = '';
 
     const horas = ["0645", "0815", "0945", "1115", "1245", "1415", "1545", "1715", "1845", "2015", "2145"];
+    const dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 
+    // Crear mapeo de colores único por materia
     const materiasUnicas = [];
     for (const hora in horarioSeleccionado) {
         for (const dia in horarioSeleccionado[hora]) {
@@ -202,36 +205,40 @@ function generarHorario() {
 
     const colorMap = {};
     materiasUnicas.forEach((materia, index) => {
-        colorMap[materia] = coloresMaterias[index % coloresMaterias.length];
+        colorMap[materia] = `color-${(index % 10) + 1}`; // Usamos 10 colores diferentes
     });
 
     actualizarLeyendaColores(colorMap);
 
+    // Generar filas para cada hora
     horas.forEach(hora => {
         const row = document.createElement('tr');
-
         const horaCell = document.createElement('td');
         horaCell.textContent = formatearHora(hora);
         horaCell.className = 'hora-col';
         row.appendChild(horaCell);
 
-        const dias = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+        // Generar celdas para cada día
         dias.forEach(dia => {
             const cell = document.createElement('td');
             const clases = horarioSeleccionado[hora]?.[dia] || [];
 
             if (clases.length > 0) {
                 clases.sort((a, b) => a.materia.localeCompare(b.materia));
-
-                cell.innerHTML = clases.map(clase => `
-                    <div class="materia" style="background-color: ${colorMap[clase.materia]};
-                            ${clases.length > 1 ? 'border-left: 3px solid red;' : ''}">
+                
+                clases.forEach(clase => {
+                    const materiaDiv = document.createElement('div');
+                    materiaDiv.className = `materia ${colorMap[clase.materia]}`;
+                    
+                    materiaDiv.innerHTML = `
                         <div class="nombre">${clase.materia}</div>
-                        <div class="grupo">G: ${clase.grupo}</div>
+                        <div class="grupo">Grupo: ${clase.grupo}</div>
                         <div class="docente">${formatearNombreDocente(clase.docente)}</div>
                         <div class="aula">Aula: ${clase.aula}</div>
-                    </div>
-                `).join('');
+                    `;
+                    
+                    cell.appendChild(materiaDiv);
+                });
 
                 if (clases.length > 1) {
                     cell.classList.add('choque-horario');
@@ -248,15 +255,26 @@ function generarHorario() {
 
 function actualizarLeyendaColores(colorMap) {
     colorLeyenda.innerHTML = '';
-    Object.entries(colorMap).forEach(([materia, color]) => {
+    
+    Object.entries(colorMap).forEach(([materia, colorClass]) => {
+        // Obtener el número de color (ej: "color-3" → 3)
+        const colorNumber = colorClass.split('-')[1];
+        
         const item = document.createElement('div');
         item.className = 'color-item';
+        
         item.innerHTML = `
-            <span class="color-muestra" style="background-color: ${color}"></span>
-            ${materia}
+            <span class="color-muestra ${colorClass}"></span>
+            <span class="materia-leyenda">${materia}</span>
         `;
+        
         colorLeyenda.appendChild(item);
     });
+
+    // Si no hay materias, mostrar mensaje
+    if (Object.keys(colorMap).length === 0) {
+        colorLeyenda.innerHTML = '<p style="color: var(--gris-texto); font-style: italic;">No hay materias en el horario</p>';
+    }
 }
 
 // Función para actualizar la lista visual de materias

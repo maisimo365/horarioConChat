@@ -426,3 +426,99 @@ td {
     padding: 15px;
     background-color: white;
 }
+
+/* Estilos mejorados para las materias */
+.materia {
+    margin: 2px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    position: relative;
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+    border: none !important;
+}
+
+.materia .nombre {
+    font-weight: 600;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
+    color: white !important;
+}
+
+.materia .grupo, 
+.materia .aula {
+    font-size: 0.75rem;
+    opacity: 0.9;
+    color: white !important;
+}
+
+.materia .docente {
+    font-size: 0.75rem;
+    font-style: italic;
+    opacity: 0.9;
+    color: white !important;
+    margin-top: 4px;
+}
+
+/* Asegurar que los colores se vean bien */
+.color-1 { background-color: #3498db; }
+.color-2 { background-color: #2ecc71; }
+.color-3 { background-color: #e74c3c; }
+.color-4 { background-color: #9b59b6; }
+.color-5 { background-color: #f39c12; }
+.color-6 { background-color: #1abc9c; }
+.color-7 { background-color: #d35400; }
+.color-8 { background-color: #34495e; }
+.color-9 { background-color: #27ae60; }
+.color-10 { background-color: #8e44ad; }
+/* Agrega estos estilos al final de tu archivo CSS */
+
+/* Leyenda de colores */
+.leyenda-colores {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.leyenda-colores h3 {
+    margin-top: 0;
+    color: var(--azul-umss);
+    border-bottom: 1px solid var(--gris-borde);
+    padding-bottom: 8px;
+}
+
+.color-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: var(--gris-claro);
+}
+
+.color-muestra {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 8px;
+    border: 1px solid var(--gris-borde);
+}
+
+/* Asegúrate de que las clases de color funcionen en la leyenda */
+.color-leyenda .color-1 { background-color: #3498db; }
+.color-leyenda .color-2 { background-color: #2ecc71; }
+.color-leyenda .color-3 { background-color: #e74c3c; }
+.color-leyenda .color-4 { background-color: #9b59b6; }
+.color-leyenda .color-5 { background-color: #f39c12; }
+.color-leyenda .color-6 { background-color: #1abc9c; }
+.color-leyenda .color-7 { background-color: #d35400; }
+.color-leyenda .color-8 { background-color: #34495e; }
+.color-leyenda .color-9 { background-color: #27ae60; }
+.color-leyenda .color-10 { background-color: #8e44ad; }
