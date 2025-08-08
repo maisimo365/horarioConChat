@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horario UMSS - Licenciatura en Sistemas</title>
+    <title>Organizador de Horarios - Licenciatura en Sistemas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <img src="loguito.jpg" alt="Logo UMSS" class="logo">
         <div class="header-content">
-            <h1>LICENCIATURA EN SISTEMAS (NUEVO)</h1>
+            <div class="titulos">
+                <h1>ORGANIZADOR DE HORARIOS</h1>
+                <h2>LICENCIATURA EN SISTEMAS (NUEVO)</h2>
+            </div>
             <div class="header-controls">
                 <select id="nivel-select">
                     <option value="A">Nivel A</option>
@@ -32,27 +35,32 @@
                 </select>
                 <button id="btn-agregar">Agregar al horario</button>
                 <button id="btn-limpiar">Limpiar horario</button>
+                <button id="btn-guardar">Guardar horario</button>
             </div>
         </div>
     </header>
 
     <div class="schedule-container">
-        <table id="horario-table">
-            <thead>
-                <tr>
-                    <th>Hora</th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miércoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
-                    <th>Sábado</th>
-                </tr>
-            </thead>
-            <tbody id="horario-body">
-                <!-- Los datos del horario se cargarán aquí -->
-            </tbody>
-        </table>
+        <div id="horario-para-imagen">
+            <div class="titulo-imagen">HORARIO 2/2025</div>
+            <div class="subtitulo-imagen">LICENCIATURA EN SISTEMAS (NUEVO)</div>
+            <table id="horario-table">
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sábado</th>
+                    </tr>
+                </thead>
+                <tbody id="horario-body">
+                    <!-- Los datos del horario se cargarán aquí -->
+                </tbody>
+            </table>
+        </div>
     </div>
 
     <div class="leyenda-colores">
@@ -60,6 +68,14 @@
         <div id="color-leyenda"></div>
     </div>
 
+    <div class="materias-seleccionadas">
+        <h3>Materias en tu horario:</h3>
+        <div id="lista-materias"></div>
+    </div>
+
+    <div id="notificacion" class="notificacion"></div>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

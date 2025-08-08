@@ -3,6 +3,7 @@ let horarioData = {};
 let materiasPorNivel = {};
 let gruposPorMateria = {};
 let horarioSeleccionado = {};
+let materiasAgregadas = [];
 
 // Colores para materias
 const coloresMaterias = [
@@ -19,7 +20,49 @@ const grupoSelect = document.getElementById('grupo-select');
 const horarioBody = document.getElementById('horario-body');
 const btnAgregar = document.getElementById('btn-agregar');
 const btnLimpiar = document.getElementById('btn-limpiar');
+const btnGuardar = document.getElementById('btn-guardar');
 const colorLeyenda = document.getElementById('color-leyenda');
+
+// Cargar datos del localStorage al iniciar
+function cargarDesdeLocalStorage() {
+    const horarioGuardado = localStorage.getItem('horarioSeleccionado');
+    const materiasGuardadas = localStorage.getItem('materiasAgregadas');
+    
+    if (horarioGuardado) {
+        horarioSeleccionado = JSON.parse(horarioGuardado);
+    }
+    
+    if (materiasGuardadas) {
+        materiasAgregadas = JSON.parse(materiasGuardadas);
+        actualizarListaMaterias();
+    }
+}
+
+// Guardar datos en localStorage
+function guardarEnLocalStorage() {
+    localStorage.setItem('horarioSeleccionado', JSON.stringify(horarioSeleccionado));
+    localStorage.setItem('materiasAgregadas', JSON.stringify(materiasAgregadas));
+}
+
+// Mostrar notificación
+function mostrarNotificacion(mensaje, tipo = 'info') {
+    const notificacion = document.getElementById('notificacion');
+    notificacion.textContent = mensaje;
+    notificacion.className = 'notificacion mostrar';
+    
+    // Establecer color según el tipo
+    if (tipo === 'error') {
+        notificacion.style.backgroundColor = '#f44336';
+    } else if (tipo === 'success') {
+        notificacion.style.backgroundColor = '#4CAF50';
+    } else {
+        notificacion.style.backgroundColor = '#333';
+    }
+    
+    setTimeout(() => {
+        notificacion.classList.remove('mostrar');
+    }, 3000);
+}
 
 // Cargar datos del JSON al iniciar
 async function cargarDatos() {
@@ -29,6 +72,8 @@ async function cargarDatos() {
         horarioData = await response.json();
         procesarDatos();
         actualizarSelectores();
+        cargarDesdeLocalStorage();
+        generarHorario();
     } catch (error) {
         console.error("Error:", error);
         horarioBody.innerHTML = `
@@ -39,6 +84,7 @@ async function cargarDatos() {
                 </td>
             </tr>
         `;
+        mostrarNotificacion('Error al cargar el horario', 'error');
     }
 }
 
@@ -46,7 +92,6 @@ async function cargarDatos() {
 function procesarDatos() {
     materiasPorNivel = {};
     gruposPorMateria = {};
-    horarioSeleccionado = {};
 
     for (const nivel in horarioData) {
         materiasPorNivel[nivel] = new Set();
@@ -195,17 +240,83 @@ function actualizarLeyendaColores(colorMap) {
     });
 }
 
+// Función para actualizar la lista visual de materias
+function actualizarListaMaterias() {
+    const listaMaterias = document.getElementById('lista-materias');
+    listaMaterias.innerHTML = '';
+
+    if (materiasAgregadas.length === 0) {
+        listaMaterias.innerHTML = '<p style="color: var(--gris-texto); font-style: italic;">No hay materias agregadas</p>';
+        return;
+    }
+
+    materiasAgregadas.forEach((materia, index) => {
+        const item = document.createElement('div');
+        item.className = 'materia-item';
+        
+        const info = document.createElement('div');
+        info.className = 'materia-info';
+        info.innerHTML = `
+            <strong>${materia.materia}</strong> - Grupo ${materia.grupo}<br>
+            <small>${formatearNombreDocente(materia.docente)}</small>
+        `;
+        
+        const eliminar = document.createElement('button');
+        eliminar.className = 'materia-eliminar';
+        eliminar.textContent = 'Eliminar';
+        eliminar.onclick = () => eliminarMateria(index);
+        
+        item.appendChild(info);
+        item.appendChild(eliminar);
+        listaMaterias.appendChild(item);
+    });
+}
+
+// Función para eliminar una materia específica
+function eliminarMateria(index) {
+    const materiaAEliminar = materiasAgregadas[index];
+    
+    // Eliminar del horario seleccionado
+    for (const hora in horarioSeleccionado) {
+        for (const dia in horarioSeleccionado[hora]) {
+            horarioSeleccionado[hora][dia] = horarioSeleccionado[hora][dia].filter(
+                clase => !(clase.materia === materiaAEliminar.materia && 
+                         clase.grupo === materiaAEliminar.grupo)
+            );
+            
+            // Eliminar día si está vacío
+            if (horarioSeleccionado[hora][dia].length === 0) {
+                delete horarioSeleccionado[hora][dia];
+            }
+        }
+        
+        // Eliminar hora si está vacía
+        if (Object.keys(horarioSeleccionado[hora]).length === 0) {
+            delete horarioSeleccionado[hora];
+        }
+    }
+    
+    // Eliminar de la lista
+    materiasAgregadas.splice(index, 1);
+    actualizarListaMaterias();
+    generarHorario();
+    guardarEnLocalStorage();
+    mostrarNotificacion('Materia eliminada del horario', 'success');
+}
+
 function agregarClase() {
     const nivel = nivelSelect.value;
     const materia = materiaSelect.value;
     const grupo = grupoSelect.value;
 
     if (!materia || !grupo) {
-        alert('Por favor seleccione una materia y un grupo');
+        mostrarNotificacion('Por favor seleccione una materia y un grupo', 'error');
         return;
     }
 
     let agregadas = 0;
+    let nuevaMateria = null;
+    
     for (const hora in horarioData[nivel]) {
         for (const dia in horarioData[nivel][hora]) {
             const clases = Array.isArray(horarioData[nivel][hora][dia])
@@ -226,6 +337,12 @@ function agregarClase() {
                     if (!existe) {
                         horarioSeleccionado[hora][dia].push(clase);
                         agregadas++;
+                        nuevaMateria = {
+                            materia: clase.materia,
+                            grupo: clase.grupo,
+                            docente: clase.docente,
+                            nivel: nivel
+                        };
                     }
                 }
             });
@@ -233,15 +350,37 @@ function agregarClase() {
     }
 
     if (agregadas === 0) {
-        alert('Esta clase ya está en el horario');
+        mostrarNotificacion('Esta clase ya está en el horario', 'error');
     } else {
+        // Añadir a la lista de materias si es nueva
+        if (nuevaMateria && !materiasAgregadas.some(m => 
+            m.materia === nuevaMateria.materia && 
+            m.grupo === nuevaMateria.grupo &&
+            m.nivel === nuevaMateria.nivel
+        )) {
+            materiasAgregadas.push(nuevaMateria);
+            actualizarListaMaterias();
+        }
         generarHorario();
+        guardarEnLocalStorage();
+        mostrarNotificacion('Materia agregada al horario', 'success');
     }
 }
 
 function limpiarHorario() {
-    horarioSeleccionado = {};
-    generarHorario();
+    if (materiasAgregadas.length === 0) {
+        mostrarNotificacion('El horario ya está vacío', 'info');
+        return;
+    }
+    
+    if (confirm('¿Estás seguro de que quieres limpiar todo el horario?')) {
+        horarioSeleccionado = {};
+        materiasAgregadas = [];
+        actualizarListaMaterias();
+        generarHorario();
+        guardarEnLocalStorage();
+        mostrarNotificacion('Horario limpiado correctamente', 'success');
+    }
 }
 
 function formatearHora(hora) {
@@ -263,8 +402,60 @@ function formatearNombreDocente(nombre) {
     return `${nombrePropio} ${apellidos.join(' ')}`;
 }
 
+function guardarHorario() {
+    if (materiasAgregadas.length === 0) {
+        mostrarNotificacion('No hay materias en el horario para guardar', 'error');
+        return;
+    }
+
+    // Obtener la fecha actual para el nombre del archivo
+    const ahora = new Date();
+    const nombreArchivo = `Horario_LSistemas_${ahora.getFullYear()}${(ahora.getMonth()+1).toString().padStart(2, '0')}${ahora.getDate().toString().padStart(2, '0')}_${ahora.getHours()}${ahora.getMinutes()}`;
+
+    // Selecciona el contenedor del horario para la imagen
+    const elementoParaImagen = document.getElementById('horario-para-imagen');
+    
+    // Muestra un mensaje de carga
+    const loading = document.createElement('div');
+    loading.textContent = 'Generando imagen...';
+    loading.style.position = 'fixed';
+    loading.style.top = '50%';
+    loading.style.left = '50%';
+    loading.style.transform = 'translate(-50%, -50%)';
+    loading.style.backgroundColor = 'white';
+    loading.style.padding = '20px';
+    loading.style.borderRadius = '5px';
+    loading.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
+    loading.style.zIndex = '1000';
+    document.body.appendChild(loading);
+    
+    // Usa html2canvas para crear la imagen
+    html2canvas(elementoParaImagen, {
+        scale: 2, // Mejor calidad
+        logging: false,
+        useCORS: true,
+        allowTaint: true,
+        backgroundColor: '#ffffff'
+    }).then(canvas => {
+        // Elimina el mensaje de carga
+        document.body.removeChild(loading);
+        
+        // Crea un enlace para descargar la imagen
+        const link = document.createElement('a');
+        link.download = `${nombreArchivo}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        mostrarNotificacion('Horario guardado como imagen', 'success');
+    }).catch(err => {
+        console.error('Error al generar la imagen:', err);
+        document.body.removeChild(loading);
+        mostrarNotificacion('Error al generar la imagen', 'error');
+    });
+}
+// Event listeners
 document.addEventListener('DOMContentLoaded', cargarDatos);
 nivelSelect.addEventListener('change', actualizarSelectores);
 materiaSelect.addEventListener('change', actualizarGrupos);
 btnAgregar.addEventListener('click', agregarClase);
 btnLimpiar.addEventListener('click', limpiarHorario);
+btnGuardar.addEventListener('click', guardarHorario);
